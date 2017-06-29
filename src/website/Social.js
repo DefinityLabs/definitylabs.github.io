@@ -10,7 +10,9 @@ class Social extends Component {
       let iconClassName = `fa fa-${property}`;
       links.push(
         <li>
-          <a href={this.props[property]} target="_blank"><i className={iconClassName} /></a>
+          <a href={this.props[property]} target="_blank" rel="noopener noreferrer">
+            <i className={iconClassName} />
+          </a>
         </li>
       );
     });

@@ -19,7 +19,7 @@ class Header extends Component {
       <header>
         <Navbar color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <a className="navbar-brand" href="#">Navbar</a>
+          <a className="navbar-brand" href=".">Navbar</a>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               {this.props.children}
