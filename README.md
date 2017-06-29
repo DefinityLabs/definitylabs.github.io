@@ -1,3 +1,3 @@
-# Definity Labs WebSite
+# Definity Labs
 
-Go to [Definity Labs Website](https://definitylabs.github.io)
+Go to [Definity Labs](https://definitylabs.github.io) Website
